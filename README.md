@@ -1,6 +1,6 @@
 # Curriculum-Vitae-Online
 
-Se utiliza flexbox por comodidad, por la disposición inicial ya que son cajas en una columna con  contenido. Además se setea una barra de navegacion lateral, que desaparece cuando la vista es más pequeña dandole relevancia al contenido del CV
+Se utiliza flexbox por comodidad, por la disposición inicial ya que son cajas en una columna con  contenido. Además se setea una barra de navegacion lateral, que desaparece cuando la vista es más pequeña dandole relevancia al contenido del CV, se utiliza Bootstrap complementario y mediaqueries.
 
 Sketch vista general
 
