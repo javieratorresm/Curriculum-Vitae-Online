@@ -1,38 +1,54 @@
 
 .navigation{
-  color: $white;
-  margin: 0;
-  padding: 0;
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  display: block;
+  background-color: $verde_Agua;
+
+
+}
+.color{
+  color: $negro_raro;
+
+}
+.nav-link{
+  &--color{
+    color: $negro_raro;
+    font-family: $lato;
+    font-weight: $bold;
+  }
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+  flex-direction: column;
+  padding: 2%;
+  margin: 15%;
+}
+.navbar-brand{
+  display: block;
+}
+
+
+.navigation{
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  display: block;
 
 
 &__logo{
-  margin: 0;
-  top: 0;
-  left: 0;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  font-family: $old;
-  background-color: $smokyblack;
-}
-
-&--texto{
-  font-weight: $bold;
-  color: $smokyblack;
-  padding-right: 1rem;
-}
+  width:90%;
 
 }
 
-.navbar-light{
-
+}
+.nav-link{
+  &--color{
+    color: $negro_raro;
+    font-family: $lato;
     font-weight: $bold;
-    color: $smokyblack;
-    padding-right: 1rem;
 }
-
-
-.navigation_container {
-  background-color: $white;
-  padding-top: 2rem;
-  padding-left: 2rem;
+}
 }

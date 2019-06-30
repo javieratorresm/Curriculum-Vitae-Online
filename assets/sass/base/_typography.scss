@@ -1,9 +1,11 @@
 //Font Family
-$old: 'Old Standard TT', serif;
-$raleway: 'Raleway', sans-serif;
+$lato: 'Lato', sans-serif;
+
 // Font Weight
+$light: 300;
 $regular: 400;
 $bold: 700;
+$black: 900;
 
 
 // Font Sizes
@@ -17,44 +19,14 @@ $x-small: 12px;
 
 
 /* Base Typography*/
-h1{
-  font-family: $old;
+h1, h2, h3{
+  font-family: $lato;
   font-weight: $bold;
-  font-size: $xxx-large;
-}
-h2{
-  font-family: $old;
-  font-weight: $bold;
-  font-size: $xx-large;
 }
 
-h3{
-  font-family: $raleway;
-  font-weight: $bold;
-  font-size: $x-large;
-}
-
-h4{
-  font-family: $raleway;
-  font-weight: $regular;
-  font-size: $large;
-}
-
-
-h5{
-  font-family: $raleway;
-  font-weight: $regular;
-  font-size: $medium;
-}
-
-h6{
-  font-family: $raleway;
-  font-weight: $regular;
-  font-size: $small;
-}
 
 p{
-  font-family: $raleway;
+  font-family: $lato;
   font-weight: $regular;
-  font-size: $x-small;
+  font-size: $medium;
 }
