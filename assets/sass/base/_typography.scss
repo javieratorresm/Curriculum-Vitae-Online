@@ -22,11 +22,21 @@ $x-small: 12px;
 h1, h2, h3{
   font-family: $lato;
   font-weight: $bold;
+  font-size: $xxx-large;
+  color: $negro_raro;
 }
 
+h4{
+  font-family: $lato;
+  font-weight: $light;
+  font-size: $large;
+  color: $negro_raro;
 
+}
 p{
   font-family: $lato;
   font-weight: $regular;
   font-size: $medium;
+  color: $negro_raro;
+
 }
