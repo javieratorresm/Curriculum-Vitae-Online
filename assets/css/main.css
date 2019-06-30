@@ -9678,6 +9678,13 @@ h1, h2, h3 {
 
 h4 {
   font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2d3047;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 18px;
   color: #2d3047;
@@ -9758,8 +9765,36 @@ p {
   align-content: center;
   padding: 10%;
 }
+.item--awesome {
+  width: 100%;
+  display: inline-block;
+}
 .item--awesome i {
   color: #2d3047;
+  margin: 1%;
+}
+.item__exp {
+  width: 90%;
+  display: inline-block;
+  align-content: baseline;
+}
+.item__exp h4 {
+  margin-top: 5%;
+}
+.item__exp h5 {
+  margin-top: 5%;
+}
+.item__contenido p {
+  font-weight: 300;
+}
+.item__contenido--plarge {
+  font-size: 18px;
+}
+.item__fecha {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .item p {

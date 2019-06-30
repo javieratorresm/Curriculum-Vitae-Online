@@ -28,6 +28,13 @@ h1, h2, h3{
 
 h4{
   font-family: $lato;
+  font-weight: $bold;
+  font-size: $large;
+  color: $negro_raro;
+}
+
+h5{
+  font-family: $lato;
   font-weight: $light;
   font-size: $large;
   color: $negro_raro;

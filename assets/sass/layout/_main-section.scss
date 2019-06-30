@@ -22,13 +22,50 @@
   padding: 10%;
 
   &--awesome{
+    width: 100%;
+    display: inline-block;
+
   i{
     color: $negro_raro;
+    margin: 1%;
 
   }
 
   }
+  &__exp{
+    width: 90%;
+    display: inline-block;
+    align-content: baseline;
+    h4{
+      margin-top: 5%;
+    }
+    h5{
+      margin-top: 5%;
+
+    }
+  }
+  &__contenido{
+  p{
+    font-weight: $light;
+  }
+
+  &--plarge{
+    font-size: $large;
+
+  }
+
+  }
+  &__fecha{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+  }
+
 }
+
 
 .item p{
   margin-top: 5%;
