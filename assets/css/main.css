@@ -9755,8 +9755,7 @@ p {
 
 .item {
   box-sizing: border-box;
-  width: 90%;
-  border: 1px solid black;
+  width: 95%;
   background-color: #FFF;
   display: flex;
   flex-flow: column wrap;
