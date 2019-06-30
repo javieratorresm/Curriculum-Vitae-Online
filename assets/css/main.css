@@ -9781,8 +9781,9 @@ p {
 .item__exp h4 {
   margin-top: 5%;
 }
-.item__exp h5 {
+.item__exp--h5mar {
   margin-top: 5%;
+  margin-bottom: 8%;
 }
 .item__contenido p {
   font-weight: 300;

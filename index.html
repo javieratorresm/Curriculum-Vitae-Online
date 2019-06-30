@@ -21,19 +21,19 @@
   <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link nav-link--color" href="#">ACERCA DE MI <span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-link--color" href="#acerca">ACERCA DE MI <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link nav-link--color  " href="#">EXPERIENCIA</a>
+            <a class="nav-link nav-link--color  " href="#exp">EXPERIENCIA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link--color" href="#">EDUCACIÓN</a>
+            <a class="nav-link nav-link--color" href="#educacion">EDUCACIÓN</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link--color" href="#">HABILIDADES</a>
+            <a class="nav-link nav-link--color" href="#habilidades">HABILIDADES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link--color" href="#">CONTACTO</a>
+            <a class="nav-link nav-link--color" href="#contacto">CONTACTO</a>
           </li>
         </ul>
       </div>
@@ -41,7 +41,7 @@
 <section class="main-section">
 
   <div class="container">
-  <div class="item">
+  <div class="item" id="acerca">
   <h1>JAVIERA TORRES</h1>
 <h5>ALSINO 4886 | +56981990684 | javiera.torresm@usach.cl</h5>
 <p>Ingeniera Civil Informática, actualmente trabajando como Desarrolladora de Software en CITIAPS, Profesora de Análisis de Algoritmos y Estructura de Datos Diurno y Vespertino en la Universidad de Santiago de Chile</p>
@@ -51,7 +51,7 @@
   <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x"></i></a>
 </div>
   </div>
-  <div class="item item__exp">
+  <div class="item item__exp" id="exp">
   <h1>EXPERIENCIA</h1>
     <div class="item__contenido">
     <div class="item__fecha">
@@ -109,7 +109,7 @@
     </div>
 
   </div>
-    <div class="item item__exp">
+    <div class="item item__exp" id="educacion">
     <h1>EDUCACIÓN</h1>
     <div class="item__contenido">
     <div class="item__fecha">
@@ -126,7 +126,7 @@
 
     </div>
 
-    <div class="item item__exp">
+    <div class="item item__exp" id="habilidades">
     <h1>HABILIDADES</h1>
     <div class="item__contenido">
     <div class="item__fecha">
@@ -142,11 +142,29 @@
     </div>
 
     </div>
-    <div class="item item__exp">
+    <div class="item item__exp" id="contacto">
     <h1>CONTACTO</h1>
     <div class="item__contenido">
-    <h5>Hola! Si deseas contactarme, por favor llena el formulario siguiente.</h5>
+    <h5 class="item__exp--h5mar">Hola! Si deseas contactarme, por favor llena el formulario siguiente.</h5>
     </div>
+    <form>
+      <div class="form-group">
+        <label for="form-control">Nombre</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Escribe tu nombre"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="form-control">Correo</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu correo electrónico">
+      </div>
+      <div class="form-group">
+    <label for="exampleFormControlTextarea1">Mensaje</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+  </div>
+      <button type="submit" class="btn btn-light">Enviar</button>
+
+
+    </form>
+
     </div>
   </div>
 </section>
